@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Insert Page</title>
+    <title>Users Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -63,6 +63,13 @@
     </table>
 
 </div>
+    <br>
+    <br>
+
+    <div style="text-align: center">
+    <button class="btn btn-primary"><a href="insert.php" class="text-white">Insert New Data</a></button>
+    </div>
+
 </div>
 
 </body>

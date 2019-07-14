@@ -12,6 +12,7 @@ if(isset($_POST['submit']))
 
     $sqlInsert ="INSERT INTO crudtable(first_name,last_name,email,age,location,join_date) values ('$firstName','$lastName','$email','$age','$location',now())";
     $statement =mysqli_query($con,$sqlInsert);
+    header('location:display.php');
 }
 
 ?>
